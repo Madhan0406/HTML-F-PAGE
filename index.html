@@ -3,180 +3,236 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Projects Page</title>
-
+    <title>HTML-PROJECTS</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">HTML-PROJECTS</h1>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <body>
-    <h1>HTML Projects Page</h1>
-    <div class="container">
-      <main class="main-content">
-        <header>
-          <nav class="top-nav">
-            <a href="#about" class="nav-link" title="About">
-              <span>About</span>
-            </a>
-            <a href="#projects" class="nav-link" title="Projects">
-              <span>Projects</span>
-            </a>
-            <a href="#contact" class="nav-link" title="Contact">
-              <span>Contact</span>
-            </a>
-            <a href="#html" class="nav-link" title="HTML">
-              <span>HTML</span>
-            </a>
-          </nav>
-        </header>
+    <main class="site-content">
+      <section id="about" class="about-section">
+        <h2 class="section-title">About</h2>
+        <p>
+          I'm a front-end developer who builds intuitive, responsive user
+          interfaces with HTML, CSS, and JavaScript. I focus on translating
+          designs into accessible, performance-optimized web experiences, using
+          modern frameworks and tooling to create maintainable, user-centered
+          applications. I enjoy solving UI problems, improving load times, and
+          collaborating with designers and back-end engineers to deliver
+          polished products.
+        </p>
+        <p>This is a collection of various HTML projects.</p>
+      </section>
+    </main>
 
-        <section class="hero" id="about">
-          <div class="hero-text">
-            <h1>My HTML<br />Projects</h1>
-            <h2>Showcase</h2>
-            <p class="hero-subtitle">
-              Explore 6 amazing projects built during my HTML learning journey
-              at TAP Academy under Trainer Harshit Sir's guidance.
-            </p>
-          </div>
-          <div class="stats-box">
-            <div class="stat-item">
-              <span class="stat-number">6+</span>
-              <span class="stat-label">Projects Built</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">100%</span>
-              <span class="stat-label">Pure HTML</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">∞</span>
-              <span class="stat-label">Possibilities</span>
-            </div>
-          </div>
-        </section>
+    <section
+      class="projects-section"
+      id="projects"
+      aria-label="Projects section"
+    >
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p>Here are some recent projects — click any card to open the demo.</p>
 
-        <section class="info-section" id="html">
-          <div class="info-content">
-            <h3 class="info-title">HyperText Markup Language</h3>
-            <p>
-              At TAP Academy, we believe in learning by doing. Under the
-              guidance of Trainer Harshit Sir, you'll not only understand HTML
-              concepts but also apply them through hands-on projects.
-            </p>
-            <div class="info-grid">
-              <div class="info-card">Semantic Elements</div>
-              <div class="info-card">Forms & Inputs</div>
-              <div class="info-card">Tables & Lists</div>
-              <div class="info-card">Multimedia</div>
-            </div>
-          </div>
-        </section>
-
-        <section class="projects-grid" id="projects">
-          <a href="./PROJECT-1/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 01</div>
-              <div class="project-title">Multimedia Blog</div>
-              <div class="project-tags">
-                Tags: audio, video, source, img, poster, controls, pre, mark,
-                del, ins, abbr, strong, em
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-
-          <a href="./PROJECT-5/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 02</div>
-              <div class="project-title">Life & Skills Portfolio</div>
-              <div class="project-tags">
-                Tags: ol (type 1/A/I), ul (disc/square/circle), li, dl, dt, dd,
-                nested lists
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-
-          <a href="./PROJECT-4/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 03</div>
-              <div class="project-title">Course Time Table</div>
-              <div class="project-tags">
-                Tags: table, caption, thead, tbody, tr, th, td, rowspan,
-                colspan, border, cellpadding
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-
-          <a href="./PROJECT-2/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 04</div>
-              <div class="project-title">Developer Portfolio</div>
-              <div class="project-tags">
-                Tags: nav, section, blockquote, cite, q, address, figure,
-                figcaption, details, summary, footer, kbd
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-
-          <a href="./PROJECT-3/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 05</div>
-              <div class="project-title">Registration Form</div>
-              <div class="project-tags">
-                Tags: form, fieldset, legend, label, input
-                (text/email/tel/password/date/radio/checkbox/file/url/number...)
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-
-          <a href="./PROJECT-6/index.html" class="project-card" target="_blank">
-            <div>
-              <div class="project-number">Project 06</div>
-              <div class="project-title">Travel Guide</div>
-              <div class="project-tags">
-                Tags: header, nav, main, section, article, footer, iframe
-                (Google Maps embed), img, form, input
-              </div>
-            </div>
-            <div class="view-project-link">→ View Project</div>
-          </a>
-        </section>
-
-        <footer class="contact-section" id="contact">
-          <h2 class="contact-title">Let's Connect</h2>
-          <div class="contact-container">
-            <div class="contact-info-item">
-              <p>Email</p>
-              <a href="mailto:madhan7.v@gmail.com" target="_blank">
-                madhan7.v@gmail.com</a
-              >
-            </div>
-            <div class="contact-info-item">
-              <p>LinkedIn</p>
+        <div class="projects-grid">
+          <fieldset class="project-fieldset">
+            <legend>
               <a
-                href="https://www.linkedin.com/in/madhan-veeramani-821b813a7"
                 target="_blank"
-                >Madhan</a
+                rel="noopener noreferrer"
+                href="./PROJECT-1/index.html"
+                aria-label="Open Multimedia project"
+                >Project-1</a
               >
-            </div>
-            <div class="contact-info-item">
-              <p>GitHub</p>
+            </legend>
+            <p>Media playback and responsive media layouts</p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              href="./PROJECT-1/index.html"
+              >Open project</a
+            >
+          </fieldset>
 
-              <a href="https://github.com/Madhan0406" target="_blank">Madhan</a>
-            </div>
-            <div class="contact-info-item">
-              <p>Phone</p>
-              <p>+91 8911554512</p>
-            </div>
+          <fieldset class="project-fieldset">
+            <legend>
+              <a
+                href="./PROJECT-5/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Portfolio Tap project"
+                >Project-2</a
+              >
+            </legend>
+            <p>Personal portfolio and skills showcase</p>
+            <a
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./PROJECT-5/index.html"
+              >Open project</a
+            >
+          </fieldset>
+
+          <fieldset class="project-fieldset">
+            <legend>
+              <a
+                href="./PROJECT-4/index.html"
+                aria-label="Open Time-table Forms Tap project"
+                >Project-3</a
+              >
+            </legend>
+            <p>Scheduling and timetable UI examples</p>
+            <a class="project-link" href="./PROJECT-4/index.html"
+              >Open project</a
+            >
+          </fieldset>
+          <fieldset class="project-fieldset">
+            <legend>
+              <a
+                href="./PROJECT-3/index.html"
+                aria-label="Open Form Tap project"
+                >Project-4</a
+              >
+            </legend>
+            <p>Forms and validation examples</p>
+            <a class="project-link" href="./PROJECT-3/index.html"
+              >Open project</a
+            >
+          </fieldset>
+          <fieldset class="project-fieldset">
+            <legend>
+              <a
+                href="./PROJECT-2/index.html"
+                aria-label="Open Portfolio Tap project"
+                >Project-5</a
+              >
+            </legend>
+            <p>Personal portfolio</p>
+            <a class="project-link" href="./PROJECT-2/index.html"
+              >Open project</a
+            >
+          </fieldset>
+
+          <fieldset class="project-fieldset">
+            <legend>
+              <a
+                href="./PROJECT-6/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Trip Adviser project"
+                >Project-6</a
+              >
+            </legend>
+            <p>Travel tips and destination pages</p>
+            <a
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="./PROJECT-6/index.html"
+              >Open project</a
+            >
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section" aria-label="Skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p>Key front-end and programming skills</p>
+        <div class="skills-list">
+          <div class="skill-item">
+            <span class="skill-chip">HTML</span>
+            <p class="skill-desc">
+              Strong command of semantic HTML and accessibility best practices
+              to build structured, SEO-friendly pages.
+            </p>
           </div>
-          <div class="footer-copyright">
-            &copy; 2026 Madhan. All rights reserved.
+
+          <div class="skill-item">
+            <span class="skill-chip">CSS</span>
+            <p class="skill-desc">
+              Responsive layouts using Flexbox and Grid, modular CSS patterns,
+              and subtle animations for polished UI.
+            </p>
           </div>
-        </footer>
-      </main>
-    </div>
+
+          <div class="skill-item">
+            <span class="skill-chip">JavaScript</span>
+            <p class="skill-desc">
+              Modern JavaScript (ES6+), DOM manipulation, and building
+              interactive features and small apps.
+            </p>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-chip">Core Java</span>
+            <p class="skill-desc">
+              Core Java fundamentals including OOP, collections, and writing
+              reliable logic for back-end or tooling tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-label="Contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-list">
+          <p class="contact-item">
+            Mobile: <a href="tel:+1234567890">+91 8011598549</a>
+          </p>
+          <p class="contact-item">
+            Email: <a href="mailto:madhan7.v@gmail.com">madhan7.v@gmail.com</a>
+          </p>
+          <p class="contact-item">
+            GitHub:
+            <a
+              href="https://github.com/Madhan0406"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github.com/Madhan0406</a
+            >
+          </p>
+          <p class="contact-item">
+            LinkedIn:
+            <a
+              href="www.linkedin.com/in/madhan-veeramani-821b813a7"
+              target="_blank"
+              rel="noopener noreferrer"
+              >linkedin.com/in/madhan-veeramani-821b813a7</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <a
+      href="#top"
+      class="back-to-top"
+      aria-label="Back to top"
+      title="Back to top"
+      >▲</a
+    >
+    <footer class="site-footer" aria-label="Site footer">
+      <div class="container">
+        <p>@2026 Madhan TAP Acadeny</p>
+      </div>
+    </footer>
   </body>
 </html>
